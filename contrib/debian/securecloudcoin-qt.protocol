@@ -1,0 +1,11 @@
+[Protocol]
+exec=securecloudcoin-qt '%u'
+protocol=securecloudcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

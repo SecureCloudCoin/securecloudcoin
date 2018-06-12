@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SecureCloudCoin
+Comment=SecureCloudCoin P2P Cryptocurrency
+Comment[fr]=SecureCloudCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SecureCloudCoin, eşten eşe kriptografik sanal para birimi
+Exec=securecloudcoin-qt %u
+Terminal=false
+Type=Application
+Icon=securecloudcoin128
+MimeType=x-scheme-handler/securecloudcoin;
+Categories=Office;Finance;

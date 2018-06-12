@@ -1,0 +1,26 @@
+# /etc/conf.d/securecloudcoind: config file for /etc/init.d/securecloudcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/securecloudcoin/securecloudcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/securecloudcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/securecloudcoind.pid"
+
+# Where to write securecloudcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/securecloudcoind"
+
+# User and group to own securecloudcoind process
+#BITCOIND_USER="securecloudcoin"
+#BITCOIND_GROUP="securecloudcoin"
+
+# Path to securecloudcoind executable
+#BITCOIND_BIN="/usr/bin/securecloudcoind"
+
+# Nice value to run securecloudcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
