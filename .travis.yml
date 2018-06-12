@@ -34,10 +34,10 @@ before_install:
   -in deploy_key.enc -out ./deploy_key -d
 - eval "$(ssh-agent -s)"
 - chmod 600 ./deploy_key
-- echo -e "Host 199.247.9.210\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- echo -e "Host assemblies.securecloudcoin.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - ssh-add ./deploy_key
 - export PWD_KEY=$(pwd)
-- ssh -i ./deploy_key root@199.247.9.210 mkdir -p /root/rel/$HOST/
+- ssh -i ./deploy_key root@assemblies.securecloudcoin.com mkdir -p /root/rel/$HOST/
 - export PATH=$(echo $PATH | tr ':' "\n" | sed '/\/opt\/python/d' | tr "\n" ":" |
   sed "s|::|:|g")
 install:
