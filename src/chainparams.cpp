@@ -128,7 +128,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // SecureCloudCoin: 1 day
         nTargetSpacing = 1 * 60;  // SecureCloudCoin: 1 minute
-        nMaturity = 6;
+        nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 25000000 * COIN;
 
