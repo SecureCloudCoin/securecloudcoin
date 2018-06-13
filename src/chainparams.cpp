@@ -128,12 +128,12 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // SecureCloudCoin: 1 day
         nTargetSpacing = 1 * 60;  // SecureCloudCoin: 1 minute
-        nMaturity = 10;
+        nMaturity = 6;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 25000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 230;
+        nLastPOWBlock = 200;
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 201;
         nAccumulatorStartHeight = 1;
