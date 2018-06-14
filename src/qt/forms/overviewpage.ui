@@ -1110,7 +1110,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
              <item row="3" column="0">
               <widget class="QLabel" name="labelUnLockedBalanceText">
                <property name="toolTip">
-                <string>Unlocked RUPs. These can be used for zSC2 minting.</string>
+                <string>Unlocked CS2s. These can be used for zSC2 minting.</string>
                </property>
                <property name="text">
                 <string>Unlocked:</string>
@@ -1120,7 +1120,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
              <item row="3" column="1">
               <widget class="QLabel" name="labelUnLockedBalance">
                <property name="toolTip">
-                <string>Unlocked RUPs. These can be used for zSC2 minting.</string>
+                <string>Unlocked CS2s. These can be used for zSC2 minting.</string>
                </property>
                <property name="text">
                 <string>0.000 000 00 SC2</string>
@@ -1131,7 +1131,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
               </widget>
              </item>
              <item row="3" column="2">
-              <widget class="QLabel" name="labelRUPPercent">
+              <widget class="QLabel" name="labelCS2Percent">
                <property name="text">
                 <string>0 %</string>
                </property>

@@ -118,7 +118,7 @@ to see it.
 
 **testnet mode**
 
-Run with the -testnet option to run with "play RUPs (tRUP)" on the test network, if you
+Run with the -testnet option to run with "play CS2s (tCS2)" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 **DEBUG_LOCKORDER**

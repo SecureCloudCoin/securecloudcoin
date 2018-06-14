@@ -2689,7 +2689,7 @@ void RecalculateZSC2Spent()
     pblocktree->Flush();
 }
 
-bool RecalculateRUPSupply(int nHeightStart)
+bool RecalculateCS2Supply(int nHeightStart)
 {
     if (nHeightStart > chainActive.Height())
         return false;
@@ -2928,7 +2928,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     if (!fVerifyingBlocks && pindex->nHeight == Params().Zerocoin_StartHeight() + 1) {
         RecalculateZSC2Minted();
         RecalculateZSC2Spent();
-        RecalculateRUPSupply(1);
+        RecalculateCS2Supply(1);
     }
 
     // Initialize zerocoin supply to the supply from previous block

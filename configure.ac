@@ -19,9 +19,9 @@ BITCOIN_TX_NAME=securecloudcoin-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef RUP_CONFIG_H])
-AH_TOP([#define RUP_CONFIG_H])
-AH_BOTTOM([#endif //RUP_CONFIG_H])
+AH_TOP([#ifndef CS2_CONFIG_H])
+AH_TOP([#define CS2_CONFIG_H])
+AH_BOTTOM([#endif //CS2_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME

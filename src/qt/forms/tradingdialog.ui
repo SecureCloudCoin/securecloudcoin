@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="RUPSupply">
+    <widget class="QLabel" name="CS2Supply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="RUPDemand">
+    <widget class="QLabel" name="CS2Demand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyRUP">
+    <widget class="QPushButton" name="BuyCS2">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1707,7 +1707,7 @@
       <string>SC2</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputRUP">
+    <widget class="QLineEdit" name="UnitsInputCS2">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellRUPBTN">
+    <widget class="QPushButton" name="SellCS2BTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1782,7 +1782,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="RUPAvailableLabel">
+       <widget class="QLabel" name="CS2AvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelRUP">
+       <widget class="QLabel" name="labelCS2">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="RUPBalanceLabel">
+    <widget class="QLabel" name="CS2BalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="RUPAvailableLabel_2">
+    <widget class="QLabel" name="CS2AvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2835,7 +2835,7 @@
       <string>SC2 Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="RUPPendingLabel">
+    <widget class="QLabel" name="CS2PendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>

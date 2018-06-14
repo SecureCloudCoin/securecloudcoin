@@ -59,8 +59,8 @@ public:
      */
     enum Unit {
         SC2,
-        mRUP,
-        uRUP
+        mCS2,
+        uCS2
     };
 
     enum SeparatorStyle {
