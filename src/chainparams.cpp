@@ -55,7 +55,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	( 0, uint256("0x000006ab9a795561406d82aae36552dded60325216ba0ac13216fcacf37f508e"));
+	( 0, uint256("0x0000070a8b68c8c5806e33a59806d446828abf53229e71055236e3d1ce5e6940"));
 //    (0, uint256("0x0000059f8ba2b9ec3f6690af8d118ff1ffd7d791a420636d147846393d7be6b2"))
 //    (39717, uint256("78e3bf8c49708d13587aec08a5c7bfd75bf8a994e684e16d5fcb9b4785d88fe0"))
 //    (39915, uint256("3cb94c5fad11d4c0e324d5c889b6037feb7d0824eeed7fb91e596c220c09827a"))
@@ -70,7 +70,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 //    (80000, uint256("6093ed8a8545575887785c6c7dd65dfa2860cc7f555c64ba0e8a9367c799d11b"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-	1528460630, // * UNIX timestamp of last checkpoint block
+	1529015007, // * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -113,11 +113,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x43;
+        pchMessageStart[0] = 0x45;
         pchMessageStart[1] = 0x56;
         pchMessageStart[2] = 0x45;
         pchMessageStart[3] = 0x54;
-        vAlertPubKey = ParseHex("04df2412d5fac4e79dce14b29b550c82270cb3bbbc474ea49ca3c595954f501374be926578b340679ea77f587028db2c6cce906a3a35e41c7df6a01925d4e68f24");
+        vAlertPubKey = ParseHex("042f3012e5ba221dd4a82155de9dc464f186e5e0b4fc0f4ae9048f5b5362993ec0b5295dddaf49ce962389830e97d9e3ceedcde0dcb440eaf675af4c1e924d6346");
         nDefaultPort = 9876;
         bnProofOfWorkLimit = ~uint256(0) >> 1; // SecureCloudCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 110000;
@@ -137,7 +137,7 @@ public:
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 201;
         nAccumulatorStartHeight = 1;
-        nZerocoinStartTime = 1528464271; // 
+        nZerocoinStartTime = 1529015008; // 
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = ~1; //First block that bad serials emerged
@@ -153,25 +153,25 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "ANSA News - Rome: fake bomb alert in the underground, panic and rage......may-2018-Remapper";
+        const char* pszTimestamp = "BBC News - Migrant ship row: Italy-France ministers' meeting postponed......may-2018-Remapper";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("0402c2194acd7ef36e114bcb9c0f16ce2623544f7c272998a7007a99f7c56baf7556499f79705401a9811511e71987b9544e5e8c7f2a2ebaf6cf8aa0f2726bca60") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("042bfd23dcce0a62be06916c30d7900e8967b0a6ccb20f9dcdec65558f4cd8a801cec44800a32f0f1f4875c9a469c24f33b1386cd4c9c4f7cbe8d60fa455e45579") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1528460630;
+        genesis.nTime = 1529015007;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 22190661;
+        genesis.nNonce = 21127760;
 
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000006ab9a795561406d82aae36552dded60325216ba0ac13216fcacf37f508e"));
-        assert(genesis.hashMerkleRoot == uint256("0xd4d44db4e6b74bf885d3c8b658f77dc27e79b19a1a9cb073dfce59adc7ef5b89"));
+        assert(hashGenesisBlock == uint256("0x0000070a8b68c8c5806e33a59806d446828abf53229e71055236e3d1ce5e6940"));
+        assert(genesis.hashMerkleRoot == uint256("0x43d1bd0f963fb2bc5d5d8e9e3c0b3356e006e42bbac897931bbd5d59083d1ebe"));
 		
 	vSeeds.push_back(CDNSSeedData("node1.securecloudcoin.com", "node1.securecloudcoin.com"));         // Primary DNS Seeder
 	vSeeds.push_back(CDNSSeedData("node2.securecloudcoin.com", "node2.securecloudcoin.com"));         // Single node address
@@ -201,9 +201,9 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "0402c2194acd7ef36e114bcb9c0f16ce2623544f7c272998a7007a99f7c56baf7556499f79705401a9811511e71987b9544e5e8c7f2a2ebaf6cf8aa0f2726bca60";
+        strSporkKey = "04d5cac4800494827f62438d4d5bdaefdc9b51e70c007e0e6ec1c980b4786e29e4a72b2b630dc90bf4260bc7d7b756bb5d1d11ea1a604667ef282c2bebb48ae9b8";
         strObfuscationPoolDummyAddress = "SDjk6ufsEvdXt5ckKBnrRQcH5LiSVnudE5";
-        nStartMasternodePayments = 1528464271; //Wed, 25 Jun 2014 20:36:16 GMT
+        nStartMasternodePayments = 1529015008; //Wed, 25 Jun 2014 20:36:16 GMT
 
         /** Zerocoin */
         zerocoinModulus = "0xc95577b6dce0049b0a20c779af38079355abadde1a1d80c353f6cb697a7ae5a087bad39caa5798478551d0f9d91e6267716506f32412de1d19d17588765eb9502b85c6a18abdb05791cfd8b734e960281193705eeece210920cc922b3af3ceb178bf12c22eb565d5767fbf19545639be8953c2c38ffad41f3371e4aac750ac2d7bd614b3faabb453081d5d88fdbb803657a980bc93707e4b14233a2358c97763bf28f7c933206071477e8b371f229bc9ce7d6ef0ed7163aa5dfe13bc15f7816348b328fa2c1e69d5c88f7b94cee7829d56d1842d77d7bb8692e9fc7b7db059836500de8d57eb43c345feb58671503b932829112941367996b03871300f25efb5";
@@ -237,7 +237,7 @@ public:
         pchMessageStart[1] = 0xba;
         pchMessageStart[2] = 0x11;
         pchMessageStart[3] = 0x34;
-        vAlertPubKey = ParseHex("04df2412d5fac4e79dce14b29b550c82270cb3bbbc474ea49ca3c595954f501374be926578b340679ea77f587028db2c6cce906a3a35e41c7df6a01925d4e68f24");
+        vAlertPubKey = ParseHex("042f3012e5ba221dd4a82155de9dc464f186e5e0b4fc0f4ae9048f5b5362993ec0b5295dddaf49ce962389830e97d9e3ceedcde0dcb440eaf675af4c1e924d6346");
         nDefaultPort = 51434;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
@@ -292,7 +292,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "04a17dbc3bde14c1c78bf346eb522218d0689301346f404832f9b2b3cabfb5ff2ce958dd85a22a491b1049b513019e72527d4c7369273b397b94d3286673ec50a9";
+        strSporkKey = "04d5cac4800494827f62438d4d5bdaefdc9b51e70c007e0e6ec1c980b4786e29e4a72b2b630dc90bf4260bc7d7b756bb5d1d11ea1a604667ef282c2bebb48ae9b8";
         strObfuscationPoolDummyAddress = "xp87cG8UEQgzs1Bk67Yk884C7pnQfAeo7q";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
