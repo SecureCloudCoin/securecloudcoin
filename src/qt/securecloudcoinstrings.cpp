@@ -226,10 +226,10 @@ QT_TRANSLATE_NOOP("securecloudcoin-core", ""
 QT_TRANSLATE_NOOP("securecloudcoin-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("securecloudcoin-core", "(9876 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("securecloudcoin-core", "(42523 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("securecloudcoin-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("securecloudcoin-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("securecloudcoin-core", "(must be 9876 for mainnet)"),
+QT_TRANSLATE_NOOP("securecloudcoin-core", "(must be 42523 for mainnet)"),
 QT_TRANSLATE_NOOP("securecloudcoin-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("securecloudcoin-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("securecloudcoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

@@ -3490,8 +3490,8 @@ https://www.transifex.com/securecloudcoin-project/securecloudcoin-project-transl
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(9876 could be used only on mainnet)</source>
-        <translation>(9876 could be used only on mainnet)</translation>
+        <source>(42523 could be used only on mainnet)</source>
+        <translation>(42523 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3502,8 +3502,8 @@ https://www.transifex.com/securecloudcoin-project/securecloudcoin-project-transl
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 9876 for mainnet)</source>
-        <translation>(deve ser 9876 para mainnet)</translation>
+        <source>(must be 42523 for mainnet)</source>
+        <translation>(deve ser 42523 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>

@@ -28,7 +28,7 @@ More information at [sc2.io](https://www.sc2.io) Visit our ANN thread at [Bitcoi
 <tr><td>Max Coin Supply (PoS Phase)</td><td>78,800,000 SC2</td></tr>
 <tr><td>Premine</td><td>7,000,000 SC2</td></tr>
 <tr><td>RPC Port</td><td>7654</td></tr>
-<tr><td>P2P Port</td><td>9876</td></tr>
+<tr><td>P2P Port</td><td>42523</td></tr>
 </table>
 
 

@@ -4560,8 +4560,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "SecureCloudCoin Alert" admin@foo
         <translation>Je moet een masternodeprivkey opgeven in de configuratie. Raadpleeg de documentatie voor hulp.</translation>
     </message>
     <message>
-        <source>(9876 could be used only on mainnet)</source>
-        <translation>(9876 kan alleen op mainnet worden gebruikt)</translation>
+        <source>(42523 could be used only on mainnet)</source>
+        <translation>(42523 kan alleen op mainnet worden gebruikt)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4572,8 +4572,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "SecureCloudCoin Alert" admin@foo
         <translation>(standaard: 1)</translation>
     </message>
     <message>
-        <source>(must be 9876 for mainnet)</source>
-        <translation>(moet 9876 voor mainnet zijn)</translation>
+        <source>(must be 42523 for mainnet)</source>
+        <translation>(moet 42523 voor mainnet zijn)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
