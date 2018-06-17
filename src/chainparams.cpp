@@ -153,7 +153,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "BBC News - Migrant ship row: Italy-France ministers' meeting postponed......may-2018-Remapper";
+        const char* pszTimestamp = "BBC News - Italy, France back Africa asylum centres......15-06-2018-Remapper";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
