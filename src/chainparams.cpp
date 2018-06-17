@@ -119,7 +119,7 @@ public:
         pchMessageStart[3] = 0x54;
         vAlertPubKey = ParseHex("042f3012e5ba221dd4a82155de9dc464f186e5e0b4fc0f4ae9048f5b5362993ec0b5295dddaf49ce962389830e97d9e3ceedcde0dcb440eaf675af4c1e924d6346");
         nDefaultPort = 9876;
-        bnProofOfWorkLimit = ~uint256(0) >> 1; // SecureCloudCoin starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // SecureCloudCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 110000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
