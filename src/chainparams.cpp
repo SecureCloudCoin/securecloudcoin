@@ -113,10 +113,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x45;
-        pchMessageStart[1] = 0x56;
-        pchMessageStart[2] = 0x45;
-        pchMessageStart[3] = 0x54;
+        pchMessageStart[0] = 0xfa;
+        pchMessageStart[1] = 0x16;
+        pchMessageStart[2] = 0xca;
+        pchMessageStart[3] = 0x59;
         vAlertPubKey = ParseHex("042f3012e5ba221dd4a82155de9dc464f186e5e0b4fc0f4ae9048f5b5362993ec0b5295dddaf49ce962389830e97d9e3ceedcde0dcb440eaf675af4c1e924d6346");
         nDefaultPort = 9876;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // SecureCloudCoin starting difficulty is 1 / 2^12
