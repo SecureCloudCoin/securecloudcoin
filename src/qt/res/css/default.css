@@ -6,6 +6,7 @@
 WalletFrame {
 border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 border-top:0px solid #000;
+opacity:0.7;
 margin:0;
 padding:0;
 }
@@ -46,24 +47,24 @@ color:#333;
 }
 
 QToolBar {
-background-color:#20355C;
+background-color:#258C76;
 border:0px solid #000;
 padding:0;
 margin:0;
 }
 
 QToolBar > QToolButton {
-background-color:#20355C;
+background-color:#185A4C ;
 border:0px solid #333;
 min-height:2.5em;
 padding: 0em 1em;
 font-weight:bold;
-color:#fff;
+color:#8AD9C0;
 }
 
 QToolBar > QToolButton:checked {
-background-color:#fff;
-color:#333;
+background-color:#8AD9C0;
+color:#185A4C ;
 font-weight:bold;
 }
 
@@ -146,7 +147,7 @@ font-size:11px;
 min-height:25px;
 outline:0;
 padding:3px;
-background-color:#000;
+background-color:#fcfcfc;
 color:#333333;
 }
 
@@ -174,7 +175,7 @@ padding-bottom:5px;
 }
 
 QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #5B4C9A, stop: .1 #5B4C86, stop: .95 #5B4C86, stop: 1 #36A9E1);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #5B4C9A, stop: .1 #258C76, stop: .95 #258C76, stop: 1 #36A9E1);
 }
 
 QPushButton:focus {
@@ -191,7 +192,7 @@ border:1px solid #36A9E1;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
-color:#36A9E1;
+color:#8AD9C0;
 }
 
 QComboBox:checked {
@@ -218,7 +219,7 @@ background:#fff;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
-color:#36A9E1;
+color:#8AD9C0;
 }
 
 QComboBox QAbstractItemView::item {
@@ -226,7 +227,7 @@ margin:4px;
 }
 
 QComboBox::item {
-color:#36A9E1;
+color:#8AD9C0;
 }
 
 QComboBox::item:alternate {
@@ -326,7 +327,7 @@ border:1px solid #333;
 }
 
 QTableView::item { /* Table Item */
-background-color:#000;
+background-color:#fcfcfc;
 font-size:12px;
 color: 20355C;
 }
@@ -347,7 +348,7 @@ background:transparent;
 }
 
 QTreeWidget { /* Tree Background */
-background-color:#000;
+background-color:#fcfcfc;
 alternate-background-color:#f2f2f2;
 color:#333;
 }
@@ -719,7 +720,7 @@ padding-bottom:5px;
 }
 
 QWidget#PrivacyDialog QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #5B4C9A, stop: .1 #5B4C86, stop: .95 #5B4C86, stop: 1 #36A9E1);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #5B4C9A, stop: .1 #258C76, stop: .95 #258C76, stop: 1 #36A9E1);
 }
 
 QWidget#PrivacyDialog QPushButton:focus {
@@ -1212,7 +1213,7 @@ min-height:100px;
 margin-right:20px;
 margin-left:0;
 margin-top:0;
-background-image: url(':/images/nodium_logo_horizontal');
+background-image: url(':/images/sc2_logo_horizontal');
 background-repeat:none;
 }
 
@@ -1673,12 +1674,12 @@ margin-right:1px;
 }
 
 QLabel#transactionSumLabel { /* Example of setObjectName for widgets without name */
-color:#333333;
+color:#20355C;
 font-weight:bold;
 }
  
 QLabel#transactionSum { /* Example of setObjectName for widgets without name */
-color:#333333;
+color:#20355C;
 }
 
 /**************************** TRANSACTION DETAILS DIALOG ********************************/
