@@ -9,7 +9,6 @@
 WalletFrame {
 border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 border-top:0px solid #000;
-opacity:0.7;
 margin:0;
 padding:0;
 }
@@ -269,7 +268,6 @@ border:1px solid #36A9E1;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
-color:#8AD9C0;
 }
 
 QAbstractSpinBox::up-button {
@@ -1240,7 +1238,7 @@ min-height:100px;
 margin-right:20px;
 margin-left:0;
 margin-top:0;
-background-image: url(':/images/sc2_logo_horizontal');
+background-image: url(':/images/securecloudcoin_logo_horizontal');
 background-repeat:none;
 }
 
@@ -1534,12 +1532,10 @@ QDialog#CoinControlDialog .QDialogButtonBox#buttonBox QPushButton { /* Coin Cont
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioTreeMode { /* Coin Control Tree Mode Selector */
-color:#8AD9C0;
 background-color:transparent;
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode { /* Coin Control List Mode Selector */
-color:#8AD9C0;
 background-color:transparent;
 }
 
@@ -1606,7 +1602,7 @@ padding-right:5px;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
-background-color:#6a6a6a;
+background-color:#258C76;
 min-width:102px;
 color:#ffffff;
 font-weight:bold;
