@@ -1529,6 +1529,32 @@ Immature: confirmed, but less than 1 mints of the same denomination after it was
          </property>
         </spacer>
        </item>
+       <item>
+        <widget class="QLabel" name="blockexplorer">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>Official Block Explorer</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="website">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>Visit our website, and connect with our social channels!</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
       </layout>
      </item>
     </layout>

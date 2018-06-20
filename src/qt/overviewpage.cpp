@@ -122,6 +122,15 @@ OverviewPage::OverviewPage(QWidget* parent) : QWidget(parent),
 {
     nDisplayUnit = 0; // just make sure it's not unitialized
     ui->setupUi(this);
+    //Add usefull links
+    ui->website->setText("<a href=\"http://www.securecloudcoin.com/\">Visit our website, and connect with our social channels!</a>");
+    ui->website->setTextFormat(Qt::RichText);
+    ui->website->setTextInteractionFlags(Qt::TextBrowserInteraction);
+    ui->website->setOpenExternalLinks(true);
+    ui->blockexplorer->setText("<a href=\"http://explorer.securecloudcoin.com/\">Official Block Explorer</a>");
+    ui->blockexplorer->setTextFormat(Qt::RichText);
+    ui->blockexplorer->setTextInteractionFlags(Qt::TextBrowserInteraction);
+    ui->blockexplorer->setOpenExternalLinks(true);
 
     // Recent transactions
     ui->listTransactions->setItemDelegate(txdelegate);
