@@ -133,7 +133,7 @@ public:
         nMaxMoneyOut = 25000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 20000;
+        nLastPOWBlock = 200;
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 201;
         nAccumulatorStartHeight = 1;
@@ -245,7 +245,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // SecureCloudCoin: 1 day
         nTargetSpacing = 1 * 60;  // SecureCloudCoin: 1 minute
-        nLastPOWBlock = 20000;
+        nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
