@@ -173,12 +173,15 @@ public:
         assert(hashGenesisBlock == uint256("0x000009d35a1c7dbc291fd46da971883b9994e916ca4080a4235037d682166384"));
         assert(genesis.hashMerkleRoot == uint256("0xe8b18c519f7fda0d8be453687467138fc310ef3c32433453b322eee801f545dc"));
 		
-	vSeeds.push_back(CDNSSeedData("node1.securecloudcoin.com", "node1.securecloudcoin.com"));         // Primary DNS Seeder
-	vSeeds.push_back(CDNSSeedData("node2.securecloudcoin.com", "node2.securecloudcoin.com"));         // Single node address
-//        vSeeds.push_back(CDNSSeedData("dns2.securecloudcoincoin.org", "dns2.securecloudcoincoin.org"));       // Single node address
-//        vSeeds.push_back(CDNSSeedData("dns3.securecloudcoincoin.org", "dns3.securecloudcoincoin.org"));       // Single node address
-//	vSeeds.push_back(CDNSSeedData("dns4.sc2.io", "dns4.sc2.io"));
-//	vSeeds.push_back(CDNSSeedData("dns5.sc2.io", "dns5.sc2.io"));
+	vSeeds.push_back(CDNSSeedData("eu1.securecloudcoin.com", "eu1.securecloudcoin.com"));         // Primary DNS Seeder
+	vSeeds.push_back(CDNSSeedData("eu2.securecloudcoin.com", "eu2.securecloudcoin.com"));         // Single node address
+	vSeeds.push_back(CDNSSeedData("jp1.securecloudcoin.com", "jp1.securecloudcoin.com"));         // Single node address
+	vSeeds.push_back(CDNSSeedData("fr1.securecloudcoin.com", "fr1.securecloudcoin.com"));         // Single node address
+	vSeeds.push_back(CDNSSeedData("fi1.securecloudcoin.com", "fi1.securecloudcoin.com"));         // Single node address
+	vSeeds.push_back(CDNSSeedData("nl1.securecloudcoin.com", "nl1.securecloudcoin.com"));         // Single node address
+	vSeeds.push_back(CDNSSeedData("eu3.securecloudcoin.com", "eu3.securecloudcoin.com"));         // Single node address
+	vSeeds.push_back(CDNSSeedData("eu4.securecloudcoin.com", "eu4.securecloudcoin.com"));         // Single node address
+	vSeeds.push_back(CDNSSeedData("eu5.securecloudcoin.com", "eu5.securecloudcoin.com"));         // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 62);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 4);
