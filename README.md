@@ -41,27 +41,7 @@ More information at [securecloudcoin.com](https://securecloudcoin.com) Visit our
 
 Governance proposals (Budget) will be usable starting from _superblock_ **100,000** in cycles of 30 days. Anyone will be able to create proposals and MasterNode owners will vote them.
 
-### PoS Rewards Breakdown
+### PoS Rewards 
 
-<table>
-<th>Phase</th><th>Block Height</th><th>Reward</th><th>Approx. End Date</th><th>Masternodes</th><th>Stakers</th><th>Governance Max</th>
-<tr><td>Phase 1</td><td>0 ->  26000</td><td>100 SC2</td><td>2018-03-01</td><td>60 SC2</td><td>40 SC2</td><td>0 SC2</td></tr>
-<tr><td>Phase 2</td><td> 26001 ->  100000</td><td>120 SC2</td><td>2018-04-21</td><td>72 SC2</td><td>48 SC2</td><td>0 SC2</td></tr>
-<tr><td>Phase 3</td><td>100001 ->  200000</td><td>88 SC2</td><td>2018-06-29</td><td>66 SC2</td><td>22 SC2</td><td>22 SC2</td></tr>
-<tr><td>Phase 4</td><td>200001 ->  300000</td><td>80 SC2</td><td>2018-09-07</td><td>60 SC2</td><td>20 SC2</td><td>20 SC2</td></tr>
-<tr><td>Phase 5</td><td>300001 ->  400000</td><td>72 SC2</td><td>2018-11-15</td><td>54 SC2</td><td>18 SC2</td><td>18 SC2</td></tr>
-<tr><td>Phase 6</td><td>400001 ->  500000</td><td>64 SC2</td><td>2019-01-24</td><td>48 SC2</td><td>16 SC2</td><td>16 SC2</td></tr>
-<tr><td>Phase 7</td><td>500001 ->  600000</td><td>56 SC2</td><td>2019-04-03</td><td>42 SC2</td><td>14 SC2</td><td>14 SC2</td></tr>
-<tr><td>Phase 8</td><td>600001 ->  700000</td><td>48 SC2</td><td>2019-06-12</td><td>36 SC2</td><td>12 SC2</td><td>12 SC2</td></tr>
-<tr><td>Phase 9</td><td>700001 ->  800000</td><td>40 SC2</td><td>2019-08-20</td><td>30 SC2</td><td>10 SC2</td><td>10 SC2</td></tr>
-<tr><td>Phase 10</td><td>800001 ->  900000</td><td>32 SC2</td><td>2019-10-28</td><td>24 SC2</td><td>8 SC2</td><td>8 SC2</td></tr>
-<tr><td>Phase 11</td><td>900001 -> 1000000</td><td>24 SC2</td><td>2020-01-06</td><td>18 SC2</td><td>6 SC2</td><td>6 SC2</td></tr>
-<tr><td>Phase 12</td><td>1000001 -> 1100000</td><td>16 SC2</td><td>2020-03-15</td><td>12 SC2</td><td>4 SC2</td><td>4 SC2</td></tr>
-<tr><td>Phase 13</td><td>1100001 -> 1200000</td><td>8 SC2</td><td>2020-05-24</td><td>6 SC2</td><td>2 SC2</td><td>2 SC2</td></tr>
-<tr><td>Phase 14</td><td>1200001 -> INFINITE</td><td>0.001 SC2</td><td>3000-01-01</td><td>0.00075 SC2</td><td>0.00025 SC2</td><td>0.00025 SC2</td></tr>
-</table>
-
-The Governance percentage is only added into circulation if there are proposals voted by the MasterNodes every month.
-
-The information in the table can be cross checked with the code [here](https://github.com/securecloudcoin-project/securecloudcoin/blob/master/src/main.cpp#L2131-L2158). `Approx. End Date` has been calculated based on the target block time of 60 seconds.
+The information can be retrived into the code [here](https://github.com/securecloudcoin-project/securecloudcoin/blob/master/src/main.cpp#L2131-L2158). 
 
