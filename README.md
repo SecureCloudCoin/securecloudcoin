@@ -4,9 +4,6 @@
 
 ### SecureCloudCoin is a fork of [PIVX](https://github.com/PIVX-Project/PIVX) that forked [Dash](https://github.com/dashpay/dash) that forked [Bitcoin](https://github.com/bitcoin/bitcoinp)
 
-### Compiling with boost other than 1.54 will create a malfunctioning wallet. This is the default version on Ubuntu 14.04, but newer versions will come with newer boost versions.
-
-
 # SecureCloudCoin Core integration/staging repository
 
 
@@ -15,9 +12,9 @@ SecureCloudCoin is a cutting edge cryptocurrency, with many features not availab
 - Fast transactions featuring guaranteed zero confirmation transactions, PIVX named it _SwiftX_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
-  with a collateral of 10K SC2.
+  with a collateral of 12345 SC2.
 
-More information at [sc2.io](https://www.sc2.io) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
+More information at [securecloudcoin.com](https://securecloudcoin.com) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
 
 
 ### Coin Specs
@@ -25,8 +22,8 @@ More information at [sc2.io](https://www.sc2.io) Visit our ANN thread at [Bitcoi
 <tr><td>Algo</td><td>Xevan</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoS Phase)</td><td>78,800,000 SC2</td></tr>
-<tr><td>Premine</td><td>7,000,000 SC2</td></tr>
+<tr><td>Max Coin Supply (PoS Phase)</td><td>25,000,000 SC2</td></tr>
+<tr><td>Premine</td><td>1,200,000 SC2</td></tr>
 <tr><td>RPC Port</td><td>7654</td></tr>
 <tr><td>P2P Port</td><td>42523</td></tr>
 </table>
@@ -37,9 +34,9 @@ More information at [sc2.io](https://www.sc2.io) Visit our ANN thread at [Bitcoi
 <table>
 <th colspan=4>PoW Phase</th>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
-<tr><td>1</td><td>7,000,000 SC2</td><td>Initial Premine for Coin Swap</td><td>0 Days</td></tr>
+<tr><td>1</td><td>1,200,000 SC2</td><td>Initial Premine for Coin Swap</td><td>0 Days</td></tr>
 <tr><th colspan=4>PoS Phase</th></tr>
-<td colspan=2>Masternodes: 60%</td><td>Stakers: 20%</td><td>Budget: 20%</td></tr>
+<td colspan=3>Masternodes: 75%</td><td>Stakers: 25%</td></tr>
 </table>
 
 Governance proposals (Budget) will be usable starting from _superblock_ **100,000** in cycles of 30 days. Anyone will be able to create proposals and MasterNode owners will vote them.
