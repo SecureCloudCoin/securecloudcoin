@@ -20,7 +20,7 @@ This is not just another masternode coin, it aims to attack the market making av
 
 The biggest problem of masternode cryptocurrencies is the inflaction. SC2 inflaction plan will will grant solid rewards to investor and at the same time will control the inflaction with a studied strategy, and a studied reward plan that will leave high the supply demand offer.
 
-More information at [securecloudcoin.com](https://www.securecloudcoin.com) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
+More information at [securecloudcoin.com](https://www.securecloudcoin.com) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=4597563.msg41497230#msg41497230)
 
 
 ### Coin Specs
