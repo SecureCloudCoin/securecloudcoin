@@ -2181,9 +2181,9 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
     if (nHeight < 5 && nHeight > 0) {
         ret = blockValue  / 100 * 0;
-    } else if (nHeight <= 100000) {
+    } else if (nHeight <= 13000) {
         // the initial split of 60% MN, 40% Stakers
-        ret = blockValue  / 100 * 75;
+        ret = blockValue  / 100 * 60;
     } else {
         // increasing the MN reward to 75% as we are decreasing the block value to make room for governance
         ret = blockValue  / 100 * 75;
